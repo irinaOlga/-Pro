@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нумеролог Про</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Нумеролог Про</h1>
+        <p>Ваш путь к тайнам чисел и самопознанию</p>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#calculator">Калькулятор</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Откройте магию чисел</h2>
+            <p>На сайте "Нумеролог Про" вы сможете узнать значение чисел и получить персональный прогноз на основе нумерологии.</p>
+        </section>
+
+        <section id="calculator">
+            <h2>Нумерологический Калькулятор</h2>
+            <form id="numerologyForm">
+                <label for="birthdate">Введите вашу дату рождения:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <button type="button" onclick="calculateNumerology()">Рассчитать</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Свяжитесь с нами по почте: <a href="mailto:info@numerologpro.com">info@numerologpro.com</a></p>
+        <p>Нумеролог Про © 2023</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
